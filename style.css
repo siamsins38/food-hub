@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.f-nav{
+    margin-left: 150px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: large;
+    gap: 30px;
+}
+/* food icon  */
+.fdc{
+  height: 40px;
+  width: 40px;
+}
+/* Home section  */
+.nav-home {
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.nav-home::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  left: 0;
+  bottom: -5px;
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  box-shadow: 0 0 8px rgba(13, 110, 253, 0.6), 0 0 8px rgba(102, 16, 242, 0.6);
+  border-radius: 3px;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-home:hover {
+  color: #0d6efd;
+  transform: scale(1.08);
+}
+.nav-home:hover::after {
+  width: 100%;
+  animation: bounce-underline 0.4s ease forwards;
+}
+@keyframes bounce-underline {
+  0% {
+    transform: scaleX(0);
+  }
+  50% {
+    transform: scaleX(1.1);
+  }
+  70% {
+    transform: scaleX(0.95);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+/* About Us section  */
+.nav-about {
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.nav-about::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  left: 0;
+  bottom: -5px;
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  box-shadow: 0 0 8px rgba(13, 110, 253, 0.6), 0 0 8px rgba(102, 16, 242, 0.6);
+  border-radius: 3px;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-about:hover {
+  color: #0d6efd;
+  transform: scale(1.08);
+}
+.nav-about:hover::after {
+  width: 100%;
+  animation: bounce-underline 0.4s ease forwards;
+}
+@keyframes bounce-underline {
+  0% {
+    transform: scaleX(0);
+  }
+  50% {
+    transform: scaleX(1.1);
+  }
+  70% {
+    transform: scaleX(0.95);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+/* Contact Us section  */
+.nav-contact {
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.nav-contact::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  left: 0;
+  bottom: -5px;
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  box-shadow: 0 0 8px rgba(13, 110, 253, 0.6), 0 0 8px rgba(102, 16, 242, 0.6);
+  border-radius: 3px;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-contact:hover {
+  color: #0d6efd;
+  transform: scale(1.08);
+}
+.nav-contact:hover::after {
+  width: 100%;
+  animation: bounce-underline 0.4s ease forwards;
+}
+@keyframes bounce-underline {
+  0% {
+    transform: scaleX(0);
+  }
+  50% {
+    transform: scaleX(1.1);
+  }
+  70% {
+    transform: scaleX(0.95);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+/* FAQ Section  */
+.nav-faq {
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.nav-faq::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  left: 0;
+  bottom: -5px;
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  box-shadow: 0 0 8px rgba(13, 110, 253, 0.6), 0 0 8px rgba(102, 16, 242, 0.6);
+  border-radius: 3px;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-faq:hover {
+  color: #0d6efd;
+  transform: scale(1.08);
+}
+.nav-faq:hover::after {
+  width: 100%;
+  animation: bounce-underline 0.4s ease forwards;
+}
+@keyframes bounce-underline {
+  0% {
+    transform: scaleX(0);
+  }
+  50% {
+    transform: scaleX(1.1);
+  }
+  70% {
+    transform: scaleX(0.95);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+/* Banner Section */
+.banner-section {
+  height: 80vh;
+  background: url('image/Web\ Banner\ 3.avif') center/cover no-repeat;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+/* Menu Card Hover Effect */
+#menu .card:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Customer Feedback */
+#feedback .card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+/* galary section  */
+#gallery img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px; 
+  transition: transform 0.3s ease;
+}
+
+#gallery img:hover {
+  transform: scale(1.05);
+}
+/* Footer  */
+.footer-section {
+  background: #1c1c1c;
+  color: #fff;
+}
+
+.footer-section a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #0d6efd;
+}
+
+.footer-section hr {
+  margin: 1.5rem 0;
+  opacity: 0.3;
+}
+
+.footer-section .footer-link {
+  display: block;
+  padding: 3px 0;
+}
+/* footer end  */
+/* date and time  */
+#date-time {
+  font-size: 1.1rem;
+  color: #0d6efd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+}
+/* Ask ai mod  */
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.outer-cont {
+  padding: 8px 20px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  background: linear-gradient(90deg, #5bfcc4, #f593e4, #71a4f0);
+  border-radius: 12px;
+  color: #fff;
+  transition: all 0.3s ease;
+  box-shadow:
+    inset 0px 0px 5px #ffffffa9,
+    inset 0px 35px 30px #000,
+    0px 5px 10px #000000cc;
+  text-shadow: 1px 1px 1px #000;
+}
+.outer-cont::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 12px;
+  filter: blur(0);
+  z-index: -1;
+  box-shadow: none;
+  background: conic-gradient(
+    #00000000 80deg,
+    #40baf7,
+    #f34ad7,
+    #5bfcc4,
+    #00000000 280deg
+  );
+  transition: all 0.3s ease;
+}
+.outer-cont:hover::before {
+  filter: blur(15px);
+}
+.outer-cont:active::before {
+  filter: blur(5px);
+  transform: translateY(1px);
+}
+.outer-cont:active {
+  box-shadow:
+    inset 0px 0px 5px #ffffffa9,
+    inset 0px 35px 30px #000;
+  margin-top: 3px;
+}
+/* backtotop css  */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #ff6b35;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    background: #ff8c5a;
+    transform: translateY(-5px);
+}
+
+/* Show button when scrolling */
+.back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+

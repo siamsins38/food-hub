@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap css  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- css file  -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <!-- fontawesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navigation bar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning" id="nav">
+      <div class="container-fluid">
+         <img src="./image/food icon.ico" alt="" class="fdc">
+        <a class="navbar-brand fw-bold mx-1 text-success" href="#">Food Hub</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 f-nav">
+            <li class="nav-item nav-home">
+              <a class="nav-link active" aria-current="page" href="#banner"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item nav-about">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./about.html"
+                target="_blank"
+              >
+                About Us</a
+              >
+            </li>
+            <li class="nav-item nav-contact">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./contact.html"
+                target="_blank"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item nav-faq">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./faq.html"
+                target="_blank"
+                >FAQ</a
+              >
+            </li>
+          </ul>
+          <!-- user login icon  -->
+          <a href="./login page/login.html" target="_blank" class="px-3 fs-4 text-dark"><i class="fa-solid fa-user"></i></a>
+          <!-- user login end  -->
+           <!-- search box  -->
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+          <!-- search box end  -->
+        </div>
+      </div>
+    </nav>
+    <!-- navigation bar end  -->
+    <!-- Full-width Banner -->
+    <section
+      id="banner"
+      class="banner-section text-white text-center d-flex align-items-center justify-content-center"
+    >
+      <div class="container">
+        <h1 class="display-4 fw-bold">Welcome to Food Hub</h1>
+        <p class="lead"> <mark>Delicious meals delivered fresh to your table </mark></p>
+      </div>
+    </section>
+    <!-- Banner end  -->
+    <!-- Food Menu Items -->
+    <section id="menu" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Our Menu</h2>
+        <div class="row g-4">
+          <!-- Food 1  -->
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1664392115681-28de35ca10a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Zm9vZCUyMGltYWdlJTIwNjAweDQ4MHxlbnwwfHwwfHx8MA%3D%3D"
+                class="card-img-top"
+                alt="Burger"
+                mb-md-0
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Burger</h5>
+                <p class="card-text">
+                  Juicy grilled burger with fresh lettuce, tomato, melted
+                  cheese, and soft bun—perfect taste for a quick, satisfying
+                  meal.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Food 2  -->
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img src="https://plus.unsplash.com/premium_photo-1664391950572-bc4b1bdd1268?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGZvb2QlMjBpbWFnZSUyMDYwMHg0ODB8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="Rameen" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Rameen</h5>
+                <p class="card-text">
+                  Delicious ramen with rich broth, tender noodles, fresh
+                  vegetables, and savory toppings, offering a warm, comforting,
+                  and satisfying meal experience.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Food 3  -->
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src="image/Pancake.avif"
+                class="card-img-top"
+                alt="Pancake"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Pancake</h5>
+                <p class="card-text">
+                  Fluffy golden pancakes served warm with butter and syrup,
+                  lightly sweet, soft, and perfect for a delightful breakfast
+                  treat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Food 4  -->
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img src="image/Omlete.avif" class="card-img-top" alt="Omlete" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Omlete</h5>
+                <p class="card-text">
+                  Freshly cooked omelette with fluffy eggs, herbs, and
+                  vegetables, lightly seasoned and perfect for a healthy,
+                  delicious meal.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Food menu end  -->
+    <!-- Customer Feedback -->
+    <section id="feedback" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Customer Feedback</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card p-3 h-100">
+              <p>"The burger was amazing! Fresh and delicious."</p>
+              <h6 class="text-end">- John D.</h6>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-3 h-100">
+              <p>"Fast delivery and tasty food. Highly recommend!"</p>
+              <h6 class="text-end">- Sarah S.</h6>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-3 h-100">
+              <p>"Excellent menu variety and fresh ingredients."</p>
+              <h6 class="text-end">- Michael L.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- feedback end  -->
+    <!-- Gallery -->
+    <section id="gallery" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Gallery</h2>
+        <div class="row g-3">
+          <div class="col-md-4">
+            <img
+              src="image/dish 1.webp"
+              class="img-fluid rounded"
+              alt="Gallery1"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="image/galary 2.avif"
+              class="img-fluid rounded"
+              alt="Gallery2"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="image/galary 3.avif"
+              class="img-fluid rounded"
+              alt="Gallery3"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="image/galary 4.avif"
+              class="img-fluid rounded"
+              alt="Gallery4"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="image/galary 5.avif"
+              class="img-fluid rounded"
+              alt="Gallery5"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="image/galary 6.avif"
+              class="img-fluid rounded"
+              alt="Gallery6"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- galary end  -->
+    <!-- Footer -->
+    <footer class="footer-section bg-dark text-white pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <!-- About / Logo -->
+          <div class="col-md-4 mb-4">
+            <h5 class="fw-bold">Food Hub</h5>
+            <p>
+              Delicious meals delivered fresh to your table. Follow us on social
+              media for latest updates.
+            </p>
+            <div class="d-flex gap-2 mt-3">
+              <a href="#" class="text-white fs-5"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="text-white fs-5"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="#" class="text-white fs-5"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#" class="text-white fs-5"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-4 mb-4">
+            <h5 class="fw-bold">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#nav" class="text-white footer-link">Home</a></li>
+              <li><a href="#menu" class="text-white footer-link">Menu</a></li>
+              <li>
+                <a href="#feedback" class="text-white footer-link">Feedback</a>
+              </li>
+              <li>
+                <a href="#gallery" class="text-white footer-link">Gallery</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-white footer-link">About Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-md-4 mb-4">
+            <h5 class="fw-bold">Contact Us</h5>
+            <p>
+              <i class="bi bi-geo-alt-fill me-2"></i>123 Food Street, Dhaka,
+              Bangladesh
+            </p>
+            <p><i class="bi bi-envelope-fill me-2"></i>info@foodhub.com</p>
+            <p><i class="bi bi-telephone-fill me-2"></i>+880 1568 810984</p>
+          </div>
+        </div>
+
+        <hr class="bg-secondary" />
+
+        <div class="row">
+          <div class="col text-center">
+            <p class="mb-0">
+              &copy; 2026 Food Hub. All Rights Reserved. |
+              <a href="./privacy & policy/policy.html" class="text-white" target="_blank">Privacy Policy</a>
+            </p>
+          </div>
+            <!-- date and time  -->
+    <div id="date-time" class="text-center py-3 fw-bold"></div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end  -->
+     <!-- back yo top button  -->
+<a href="#" class="back-to-top" id="backToTop">
+    &#8679;
+</a>
+    <!-- bootstrap js  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- js file  -->
+    <script src="script.js"></script>
+  </body>
+</html>
